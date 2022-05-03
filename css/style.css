@@ -1,3 +1,35 @@
+address {
+    margin-top: 25px;
+}
+
+a {
+    color: black;
+}
+
+.col-sm-6 {
+    padding-bottom: 40px;
+}
+
+#bloc-7 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(235, 232, 228);
+}
+
+.col-sm-6 {
+    width: 50%;
+}
+
+form {
+    margin-bottom: 40px;
+}
+
+.page-container {
+    max-width: 1800px;
+    margin: auto;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -40,8 +72,8 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .bloc-lg {
@@ -53,7 +85,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 30px 50px;
 }
 
 .bg-center,
@@ -91,7 +123,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -100,7 +131,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(10, 10, 10, 0.7);
 }
 
 .d-bloc button:hover {
@@ -133,7 +164,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: white;
 }
 
 .d-bloc .a-btn:hover,
@@ -195,7 +226,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: black;
 }
 
 .d-bloc .panel button:hover,
@@ -231,7 +262,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: black;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -650,12 +681,11 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: 550;
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1440px;
 }
 
 .hero-bloc-text {
@@ -683,6 +713,7 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    color: black;
 }
 
 .h1 {
@@ -723,11 +754,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: black!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: white!important;
 }
 
 .icons {
@@ -743,18 +774,14 @@ h4 {
     margin-bottom: 24px;
 }
 
-.portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
-}
-
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #353d58;
     padding: 40px 40px 40px 40px;
+    border-radius: 20px;
 }
 
 .bold-link {
@@ -779,7 +806,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #353d58;
     color: #FFFFFF!important;
 }
 
@@ -805,24 +832,19 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
-}
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    color: #F3976C!important;
+    border-color: #c27956!important;
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("/img/agence-la-panthere.webp");
+    border-radius: 20px;
+    margin-bottom: -20px;
+    border: solid 5px orange;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("/img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -900,10 +922,9 @@ h4 {
     h4,
     h5,
     h6,
-    p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -984,8 +1005,8 @@ h4 {
     }
     .bloc-sm,
     .bloc-md {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
@@ -1011,7 +1032,7 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 20px;
     }
     .close-lightbox {
         display: inline-block;
