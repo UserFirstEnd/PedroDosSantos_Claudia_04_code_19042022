@@ -1911,9 +1911,9 @@ blockquote.pull-right small:after {
 }
 
 address {
-    margin-bottom: 20px;
     font-style: normal;
-    line-height: 1.42857143
+    line-height: 1.42857143;
+    padding-bottom: 30px;
 }
 
 code,
@@ -3075,7 +3075,7 @@ label {
     display: inline-block;
     max-width: 100%;
     margin-bottom: 5px;
-    font-weight: 700
+    font-weight: 700;
 }
 
 input[type=search] {
@@ -4829,7 +4829,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px
+    padding: 10px 15px;
+    width: 100%;
 }
 
 .nav>li>a:focus,
@@ -5225,7 +5226,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 @media (min-width:768px) {
     .navbar-toggle {
-        display: none
+        display: none;
     }
 }
 
