@@ -861,7 +861,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("https://userfirstend.github.io/PedroDosSantos_Claudia_04_code_19042022/img/agence-la-panthere.webp");
+    background-image: url("https://raw.githubusercontent.com/UserFirstEnd/PedroDosSantos_Claudia_04_code_19042022/main/img/agence-la-panthere.webp");
     background-color: #c27956;
     border-radius: 20px;
     margin-bottom: -20px;
@@ -869,7 +869,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("https://userfirstend.github.io/PedroDosSantos_Claudia_04_code_19042022/img/image-de-presentation.webp");
+    background-image: url("https://raw.githubusercontent.com/UserFirstEnd/PedroDosSantos_Claudia_04_code_19042022/main/img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
